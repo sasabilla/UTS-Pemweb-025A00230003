@@ -15,7 +15,7 @@ declare(strict_types=1);
             gap: 1.5rem;
         }
         .cafe-banner {
-            width: 50%;
+            width: 100%;
             height: 500px;
             object-fit: cover;
             border-radius: 8px;
@@ -53,7 +53,8 @@ declare(strict_types=1);
             <!-- Foto / Suasana Kafe -->
             <img src="assets/suasana-kafe.jpg" alt="Suasana interior Kafe Senja yang nyaman dan estetik" class="cafe-banner">
 
-            <p>Selamat datang di halaman resmi <strong>Kafe Senja</strong>. Kami menyajikan berbagai pilihan racikan kopi nusantara pilihan, makanan berat yang lezat, serta camilan nikmat untuk menemani waktu produktif maupun waktu bersantai bersama orang terkasih.</p>
+            <p>Selamat datang di halaman resmi <strong>Kafe Senja</strong>. Kami menyajikan berbagai pilihan menu berkualitas
+             mulai dari hidangan utama, snack, dessert, hingga aneka racikan kopi dan non-kopi untuk menemani waktu produktif maupun bersantai Anda.
             
             <div class="info-grid">
                 <div class="info-card">
