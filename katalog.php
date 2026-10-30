@@ -47,7 +47,7 @@ $rataRataHarga = hitungRataRataHarga(array_values($menuDitampilkan));
 <body>
     <header>
         <h1>☕ Kafe Senja</h1>
-        <p>Katalog Pilihan Menu Spesial & Interaktif</p>
+        <p>Daftar Menu</p>
     </header>
     <nav>
         <a href="index.php">Profil Kafe</a>
