@@ -34,7 +34,10 @@ $rataRataHarga = hitungRataRataHarga(array_values($menuDitampilkan));
         
         .grid-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; margin-top: 1rem; }
         .card { background: #fff; border: 1px solid #e2e8f0; border-radius: 9px; overflow: hidden; display: flex; flex-direction: column; }
-        .card img { width: 100%; height: 160px; object-fit: cover; object-position: center; object-fit: contain; background-color: #f8fafc; padding: 5px; }
+        
+        /* Perbaikan: object-fit disatukan menggunakan 'cover' dan diberi background agar rapi */
+        .card img { width: 100%; height: 160px; object-fit: cover; object-position: center; background-color: #f8fafc; padding: 5px; }
+        
         .card-content { padding: 1.2rem; display: flex; flex-direction: column; flex-grow: 1; }
         
         .badge { display: inline-block; padding: 0.25rem 0.5rem; font-size: 0.75rem; font-weight: bold; border-radius: 4px; margin-bottom: 0.5rem; align-self: flex-start; }
